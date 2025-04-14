@@ -19,9 +19,6 @@ client = QdrantClient(
     prefer_grpc=False,
 )
 
-print(client)
-print("#####################")
-
 db = Qdrant(
     client=client,
     collection_name=collection_name,

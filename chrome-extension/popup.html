@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>PDF Query Assistant</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 10px; width: 300px; }
+    textarea { width: 100%; height: 60px; margin-bottom: 10px; }
+    button { width: 100%; }
+    pre { background: #f4f4f4; padding: 10px; overflow-x: auto; }
+  </style>
+</head>
+<body>
+  <h3>Ask about this PDF</h3>
+  <input type="file" id="pdfFile" accept="application/pdf" />
+  <div id="uploadStatus" style="margin: 10px 0; font-size: 14px;"></div>
+  <textarea id="query" placeholder="Type your question..."></textarea>
+  <button id="ask">Ask</button>
+  <pre id="results"></pre>
+  <script src="popup.js"></script>
+</body>
+</html>
