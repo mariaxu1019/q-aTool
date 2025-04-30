@@ -5,8 +5,8 @@ This tool allows users to ask questions about the content of the PDF they're vie
 
 ## 🛠️ Skills & Technologies Used
 
-- **Languages**: JavaScript, HTML, CSS
+- **Languages**: Python, JavaScript, HTML, CSS
 - **Frameworks & Libraries**:
-  - Chrome Extensions API
-  - PDF.js for rendering and interacting with PDF content
-  - OpenAI API for natural language processing
+  - LangChain
+  - QDrant
+  - FastAPI
